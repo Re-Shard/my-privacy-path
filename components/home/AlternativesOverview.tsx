@@ -57,7 +57,7 @@ export default function AlternativesOverview() {
         </Link>
 
         <Link
-          href="/guides/auth"
+          href="/guides/chat"
           className="card flex flex-col items-center text-center hover:border-indigo-200"
         >
           <div className="p-3 bg-indigo-100 rounded-full">

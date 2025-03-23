@@ -171,6 +171,13 @@ export default function Navigation() {
                   Email Privacy
                 </Link>
                 <Link
+                  href="/guides/chat"
+                  className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50"
+                  onClick={() => setIsOpen(false)}
+                >
+                  Privacy friendly Chat
+                </Link>
+                <Link
                   href="/guides/vpn"
                   className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50"
                   onClick={() => setIsOpen(false)}
