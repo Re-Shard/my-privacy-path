@@ -116,7 +116,7 @@ export default function Footer() {
                 </AffiliateLink>
               </li>
               <li>
-                <AffiliateLink href="https://nordvpn.com#ref">
+                <AffiliateLink href="https://go.nordvpn.net/aff_c?offer_id=15&aff_id=120357&url_id=902">
                   NordVPN
                 </AffiliateLink>
               </li>
