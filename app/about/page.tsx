@@ -113,10 +113,10 @@ export default function AboutPage() {
           </p>
           <p>
             <a
-              href="mailto:contact@myprivacypath.org"
+              href="mailto:richard@whisperofdata.nl"
               className="text-indigo-600 hover:text-indigo-700"
             >
-              contact@myprivacypath.org
+              richard@whisperofdata.nl
             </a>
           </p>
         </div>
