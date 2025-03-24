@@ -75,7 +75,7 @@ export default function AlternativesPage() {
               </p>
               <div className="mt-4">
                 <a
-                  href="https://tutanota.com"
+                  href="https://app.tuta.com/signup?ref=VzdGekVva1c"
                   className="inline-flex items-center text-indigo-600 hover:text-indigo-700"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -122,14 +122,14 @@ export default function AlternativesPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="card">
-              <h3 className="text-xl font-semibold">Mullvad VPN</h3>
+              <h3 className="text-xl font-semibold">NordVPN</h3>
               <p className="mt-2 text-gray-600">
                 Privacy-focused VPN that doesn't require personal information to
                 sign up.
               </p>
               <div className="mt-4">
                 <a
-                  href="https://mullvad.net"
+                  href="https://go.nordvpn.net/aff_c?offer_id=15&aff_id=120357&url_id=902"
                   className="inline-flex items-center text-indigo-600 hover:text-indigo-700"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -322,6 +322,270 @@ export default function AlternativesPage() {
               Read our Authentication Guide
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
+          </div>
+        </section>
+
+        {/* Add a new section for the Privacy-Friendly Software Projects table */}
+        <section className="mt-16">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">
+            Privacy-Friendly Software Projects
+          </h2>
+
+          <div className="overflow-x-auto rounded-lg border border-gray-200">
+            <table className="min-w-full divide-y divide-gray-200">
+              <thead className="bg-gray-50">
+                <tr>
+                  <th
+                    scope="col"
+                    className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                  >
+                    Name
+                  </th>
+                  <th
+                    scope="col"
+                    className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                  >
+                    Category
+                  </th>
+                  <th
+                    scope="col"
+                    className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                  >
+                    Description
+                  </th>
+                  <th
+                    scope="col"
+                    className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                  >
+                    Website
+                  </th>
+                </tr>
+              </thead>
+              <tbody className="bg-white divide-y divide-gray-200">
+                <tr>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                    Signal
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                    Messaging
+                  </td>
+                  <td className="px-6 py-4 text-sm text-gray-500">
+                    Secure, end-to-end encrypted messaging app with focus on
+                    privacy
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                    <a
+                      href="https://signal.org"
+                      className="text-indigo-600 hover:text-indigo-900"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      signal.org
+                    </a>
+                  </td>
+                </tr>
+                <tr className="bg-gray-50">
+                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                    Firefox
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                    Browser
+                  </td>
+                  <td className="px-6 py-4 text-sm text-gray-500">
+                    Open-source web browser with strong privacy features
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                    <a
+                      href="https://www.mozilla.org/firefox/"
+                      className="text-indigo-600 hover:text-indigo-900"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      mozilla.org/firefox
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                    LibreOffice
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                    Office Suite
+                  </td>
+                  <td className="px-6 py-4 text-sm text-gray-500">
+                    Free and open-source office suite that respects your privacy
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                    <a
+                      href="https://www.libreoffice.org/"
+                      className="text-indigo-600 hover:text-indigo-900"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      libreoffice.org
+                    </a>
+                  </td>
+                </tr>
+                <tr className="bg-gray-50">
+                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                    Jitsi Meet
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                    Video Conferencing
+                  </td>
+                  <td className="px-6 py-4 text-sm text-gray-500">
+                    Secure, fully encrypted video conferencing platform
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                    <a
+                      href="https://meet.jit.si/"
+                      className="text-indigo-600 hover:text-indigo-900"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      meet.jit.si
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                    DuckDuckGo
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                    Search Engine
+                  </td>
+                  <td className="px-6 py-4 text-sm text-gray-500">
+                    Privacy-focused search engine that doesn't track your
+                    searches
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                    <a
+                      href="https://duckduckgo.com/"
+                      className="text-indigo-600 hover:text-indigo-900"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      duckduckgo.com
+                    </a>
+                  </td>
+                </tr>
+                <tr className="bg-gray-50">
+                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                    Mastodon
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                    Social Media
+                  </td>
+                  <td className="px-6 py-4 text-sm text-gray-500">
+                    Decentralized social network with no ads or tracking
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                    <a
+                      href="https://joinmastodon.org/"
+                      className="text-indigo-600 hover:text-indigo-900"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      joinmastodon.org
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                    LineageOS
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                    Mobile OS
+                  </td>
+                  <td className="px-6 py-4 text-sm text-gray-500">
+                    Open-source Android distribution with enhanced privacy and
+                    security
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                    <a
+                      href="https://lineageos.org/"
+                      className="text-indigo-600 hover:text-indigo-900"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      lineageos.org
+                    </a>
+                  </td>
+                </tr>
+                <tr className="bg-gray-50">
+                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                    Standard Notes
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                    Note Taking
+                  </td>
+                  <td className="px-6 py-4 text-sm text-gray-500">
+                    End-to-end encrypted notes app for secure note-taking
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                    <a
+                      href="https://standardnotes.com/"
+                      className="text-indigo-600 hover:text-indigo-900"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      standardnotes.com
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                    Brave
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                    Browser
+                  </td>
+                  <td className="px-6 py-4 text-sm text-gray-500">
+                    Privacy-focused browser with built-in ad and tracker
+                    blocking
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                    <a
+                      href="https://brave.com/"
+                      className="text-indigo-600 hover:text-indigo-900"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      brave.com
+                    </a>
+                  </td>
+                </tr>
+                <tr className="bg-gray-50">
+                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                    Element
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                    Messaging
+                  </td>
+                  <td className="px-6 py-4 text-sm text-gray-500">
+                    Secure messaging app based on the Matrix protocol with
+                    end-to-end encryption
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                    <a
+                      href="https://element.io/"
+                      className="text-indigo-600 hover:text-indigo-900"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      element.io
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div className="mt-6 text-center">
+            <p className="text-gray-600">
+              This is just a selection of privacy-friendly software projects.
+              There are many more alternatives available for various needs.
+            </p>
           </div>
         </section>
       </div>
