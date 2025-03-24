@@ -1,3 +1,3 @@
 User-Agent: *
 Allow: /
-Sitemap: https://acme.com/sitemap.xml
+Sitemap: https://www.myprivacypath.com/sitemap.xml
